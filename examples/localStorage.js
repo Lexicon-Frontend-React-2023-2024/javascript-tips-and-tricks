@@ -7,7 +7,7 @@ let todos;
 const rawTodos = localStorage.getItem(TODOS);
 
 if (!rawTodos) {
-  todos = [];
+  todos = 
   console.log("No saved todos");
 } else {
   todos = JSON.parse(rawTodos);
